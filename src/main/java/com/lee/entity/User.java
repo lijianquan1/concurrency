@@ -65,4 +65,16 @@ public class User {
     public void setMtime(Date mtime) {
         this.mtime = mtime;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                ", isDel=" + isDel +
+                ", ctime=" + ctime +
+                ", mtime=" + mtime +
+                '}';
+    }
 }
